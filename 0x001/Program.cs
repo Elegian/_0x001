@@ -9,6 +9,8 @@ using OpenTK.Graphics;
 using OpenTK.Graphics.OpenGL;
 using OpenTK.Input;
 
+using _0x001.Views.Windows;
+
 namespace _0x001
 {
     class Program
@@ -17,7 +19,7 @@ namespace _0x001
         {
             ToolkitOptions Options = new ToolkitOptions() { Backend = PlatformBackend.PreferNative, EnableHighResolution = true };
             using (Toolkit.Init(Options))
-            using (GameWindow MainWindow = new GameWindow())
+            using (BaseWindow MainWindow = new BaseWindow())
             {
                 MainWindow.Run();
             }
