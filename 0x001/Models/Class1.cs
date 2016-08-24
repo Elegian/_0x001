@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _0x001.Models
 {
-    class Class1
+    public struct waaaaaaaaaaaaaaaaaaat
     {
     }
 }

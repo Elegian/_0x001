@@ -19,7 +19,7 @@ namespace _0x001
         {
             ToolkitOptions Options = new ToolkitOptions() { Backend = PlatformBackend.PreferNative, EnableHighResolution = true };
             using (Toolkit.Init(Options))
-            using (BaseWindow MainWindow = new BaseWindow())
+            using (OpenGLExampleBaseWindow MainWindow = new OpenGLExampleBaseWindow())
             {
                 MainWindow.Run();
             }
