@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\Class1.cs" />
+    <Compile Include="Dev\Elegian\TestDisplay.cs" />
     <Compile Include="Models\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,10 +63,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dev\Elegian\" />
     <Folder Include="Dev\sanderele1\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\0x002\0x002.csproj">
+      <Project>{2760a990-e433-4ec6-ad2f-1bcbeb10c205}</Project>
+      <Name>0x002</Name>
+    </ProjectReference>
     <ProjectReference Include="..\0x003\0x003.csproj">
       <Project>{94c80460-e113-4e75-8118-2954ec807dc2}</Project>
       <Name>0x003</Name>
