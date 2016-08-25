@@ -47,18 +47,34 @@ namespace _0x003
         #region Use it with caution
         public static void DebugLogIfValueIsGreaterThan(dynamic yourVal, dynamic otherVal, string message, LogType type)
         {
-            if (yourVal > otherVal)
+            try
             {
-                printMessage(message, type);
+                if (yourVal > otherVal)
+                {
+                    printMessage(message, type);
+                }
+            }
+            catch (Exception ex)
+            {
+                printMessage("Can't perform operation", LogType.INFO);
+                printMessage(ex.ToString(), LogType.ERROR);
             }
         }
         
 
         public static void DebugLogIfValueIsLessThan(dynamic yourVal, dynamic otherVal, string message, LogType type)
         {
-            if (yourVal < otherVal)
+            try
             {
-                printMessage(message, type);
+                if (yourVal < otherVal)
+                {
+                    printMessage(message, type);
+                }
+            }
+            catch (Exception ex)
+            {
+                printMessage("Can't perform operation", LogType.INFO);
+                printMessage(ex.ToString(), LogType.ERROR);
             }
         }
         #endregion
