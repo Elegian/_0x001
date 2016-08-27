@@ -70,6 +70,10 @@
     <Folder Include="Dev\Elegian\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\0x002\0x002.csproj">
+      <Project>{2760a990-e433-4ec6-ad2f-1bcbeb10c205}</Project>
+      <Name>0x002</Name>
+    </ProjectReference>
     <ProjectReference Include="..\0x003\0x003.csproj">
       <Project>{94c80460-e113-4e75-8118-2954ec807dc2}</Project>
       <Name>0x003</Name>
