@@ -188,6 +188,8 @@ namespace _0x001.Views.Windows
             //GL.BindTexture(TextureTarget.Texture2D, texture);
             GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, (int)TextureMagFilter.Nearest);
             GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter, (int)TextureMinFilter.Nearest);
+            GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapS, (int)TextureWrapMode.Repeat);
+            GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapT, (int)TextureWrapMode.Repeat);
             GL.TexImage2D(TextureTarget.Texture2D, 0, PixelInternalFormat.Rgba, bmp.Width, bmp.Height, 0, PixelFormat.Bgra, PixelType.UnsignedByte, textureData);
 
             int textureLoc = GL.GetUniformLocation(shaderProgram, "textureSampler");
@@ -209,6 +211,17 @@ namespace _0x001.Views.Windows
             GL.DeleteShader(fragmentShader);
         }
 
+        protected override void OnResize(EventArgs e)
+        {
+            base.OnResize(e);
+            if (shaderProgram != -1)
+            {
+                GL.UseProgram(shaderProgram);
+                int screenResPosition = GL.GetUniformLocation(shaderProgram, "screenResolution");
+                GL.Uniform2(screenResPosition, new Vector2(Width, Height));
+            }
+        }
+
         protected override void OnRenderFrame(FrameEventArgs e)
         {
             GL.Clear(ClearBufferMask.DepthBufferBit | ClearBufferMask.ColorBufferBit);
@@ -225,9 +238,11 @@ namespace _0x001.Views.Windows
             //Use shader program (tell the gpu what shaders to use?)
             GL.UseProgram(shaderProgram);
             //Bind our vertecies buffer
+
             GL.BindVertexArray(VAO);
             GL.ActiveTexture(TextureUnit.Texture0 + texture);
             GL.BindTexture(TextureTarget.Texture2D, texture);
+
             //Actually draw shit
             GL.DrawArrays(PrimitiveType.Triangles, 0, 3);
             //Unbind vertecies buffer

@@ -51,6 +51,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\Class1.cs" />
+    <Compile Include="Dev\sanderele1\OpenGLControl.cs" />
+    <Compile Include="Dev\sanderele1\OpenGLWindow.cs" />
+    <Compile Include="Dev\sanderele1\Shader.cs" />
+    <Compile Include="Dev\sanderele1\ShaderProgram.cs" />
+    <Compile Include="Dev\sanderele1\WindowParentControl.cs" />
     <Compile Include="Models\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dev\Elegian\" />
-    <Folder Include="Dev\sanderele1\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\0x003\0x003.csproj">
