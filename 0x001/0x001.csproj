@@ -59,6 +59,10 @@
     <Compile Include="Dev\sanderele1\ShaderProgram.cs" />
     <Compile Include="Dev\sanderele1\WindowParentControl.cs" />
     <Compile Include="Models\Class1.cs" />
+    <Compile Include="ObjParser\Face.cs" />
+    <Compile Include="ObjParser\Obj.cs" />
+    <Compile Include="ObjParser\Vertex.cs" />
+    <Compile Include="ObjParser\VNormal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Class1.cs" />
