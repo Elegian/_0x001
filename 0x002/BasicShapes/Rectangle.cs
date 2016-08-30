@@ -14,8 +14,7 @@ namespace _0x002
 {
     public class Rectangle
     {
-
-        
+                
         
     }
 }
