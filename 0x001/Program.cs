@@ -17,23 +17,23 @@ namespace _0x001
     {
         static void Main(string[] args)
         {
-            bool areYouElegian = false;
+            //bool areYouElegian = false;
 
-            if(areYouElegian)
-            {
-                _0x001.Dev.Elegian.TestDisplay td = new Dev.Elegian.TestDisplay(640, 640);
-                td.Run();
+            //if(areYouElegian)
+            //{
+            //    _0x001.Dev.Elegian.TestDisplay td = new Dev.Elegian.TestDisplay(640, 640);
+            //    td.Run();
 
-            }
-            else
-            {
+            //}
+            //else
+            //{
                 ToolkitOptions Options = new ToolkitOptions() { Backend = PlatformBackend.PreferNative, EnableHighResolution = true };
                 using (Toolkit.Init(Options))
                 using (OpenGLExampleBaseWindow MainWindow = new OpenGLExampleBaseWindow())
                 {
                     MainWindow.Run();
                 }
-            }
+            //}
         }
     }
 }
