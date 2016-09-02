@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0x001.Views
+namespace _0x001.Models.Program_Keywords.End
 {
-    class Class1
+    class ClassEnd
     {
     }
 }
