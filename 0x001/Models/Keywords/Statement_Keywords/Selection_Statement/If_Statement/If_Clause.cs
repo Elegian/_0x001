@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace _0x001.Models.Statement_Keywords.Selection_Statement.If_Statement
+namespace _0x001.Models.Keywords.Statement_Keywords.Selection_Statement.If_Statement
 {
-    struct If_Clause
+    class If_Clause : Base
     {
         public bool notElseIf;
         public List<Argument_Statement.If_Argument> Arguments;

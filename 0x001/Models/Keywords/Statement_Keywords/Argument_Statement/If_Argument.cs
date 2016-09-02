@@ -1,6 +1,6 @@
-﻿namespace _0x001.Models.Statement_Keywords.Argument_Statement
+﻿namespace _0x001.Models.Keywords.Statement_Keywords.Argument_Statement
 {
-    struct If_Argument
+    class If_Argument : Base
     {
         public dynamic FirstArgument;
         public Argument_Statement.OperatorType Operator;

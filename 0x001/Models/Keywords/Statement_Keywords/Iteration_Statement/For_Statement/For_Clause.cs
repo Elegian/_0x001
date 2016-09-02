@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0x001.Controllers.Code_Container
+namespace _0x001.Models.Keywords.Statement_Keywords.Iteration_Statement.For_Statement
 {
-    public class Codemap
+    class For_Clause
     {
-        
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace _0x001.Models.Statement_Keywords.Argument_Statement
+﻿namespace _0x001.Models.Keywords.Statement_Keywords.Argument_Statement
 {
     enum OperatorType
     {

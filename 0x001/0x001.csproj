@@ -61,17 +61,21 @@
     <Compile Include="Dev\sanderele1\ShaderProgram.cs" />
     <Compile Include="Dev\sanderele1\Texture.cs" />
     <Compile Include="Dev\sanderele1\WindowParentControl.cs" />
+    <Compile Include="Models\Keywords\Base.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Iteration_Statement\Foreach_Statement\Foreach_Clause.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Iteration_Statement\For_Statement\For_Clause.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Iteration_Statement\While_Statement\While_Clause.cs" />
     <Compile Include="Models\Method_Handling\Method.cs" />
-    <Compile Include="Models\Program_Keywords\End\ClassEnd.cs" />
-    <Compile Include="Models\Program_Keywords\End\ProgramEnd.cs" />
-    <Compile Include="Models\Program_Keywords\Start\ClassStart.cs" />
-    <Compile Include="Models\Program_Keywords\Start\ProgramStart.cs" />
-    <Compile Include="Models\Statement_Keywords\Argument_Statement\If_Argument.cs" />
-    <Compile Include="Models\Statement_Keywords\Argument_Statement\OperatorType.cs" />
-    <Compile Include="Models\Statement_Keywords\Selection_Statement\If_Statement\Else_Clause.cs" />
-    <Compile Include="Models\Statement_Keywords\Selection_Statement\If_Statement\If_Clause.cs" />
-    <Compile Include="Models\Statement_Keywords\Selection_Statement\Switch_Statement\Case_Clause.cs" />
-    <Compile Include="Models\Statement_Keywords\Selection_Statement\Switch_Statement\Switch_Clause.cs" />
+    <Compile Include="Models\Keywords\Program_Keywords\End\ClassEnd.cs" />
+    <Compile Include="Models\Keywords\Program_Keywords\End\ProgramEnd.cs" />
+    <Compile Include="Models\Keywords\Program_Keywords\Start\ClassStart.cs" />
+    <Compile Include="Models\Keywords\Program_Keywords\Start\ProgramStart.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Argument_Statement\If_Argument.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Argument_Statement\OperatorType.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Selection_Statement\If_Statement\Else_Clause.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Selection_Statement\If_Statement\If_Clause.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Selection_Statement\Switch_Statement\Case_Clause.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Selection_Statement\Switch_Statement\Switch_Clause.cs" />
     <Compile Include="ObjParser\Face.cs" />
     <Compile Include="ObjParser\Obj.cs" />
     <Compile Include="ObjParser\Vertex.cs" />
@@ -87,12 +91,9 @@
   <ItemGroup>
     <Folder Include="Dev\Elegian\" />
     <Folder Include="Models\Code_Generator\" />
+    <Folder Include="Models\Keywords\Statement_Keywords\Exception_Handling\" />
+    <Folder Include="Models\Keywords\Statement_Keywords\Jump_Statement\" />
     <Folder Include="Models\Logic_Check\" />
-    <Folder Include="Models\Statement_Keywords\Exception_Handling\" />
-    <Folder Include="Models\Statement_Keywords\Iteration_Statement\Foreach_Statement\" />
-    <Folder Include="Models\Statement_Keywords\Iteration_Statement\For_Statement\" />
-    <Folder Include="Models\Statement_Keywords\Iteration_Statement\While_Statement\" />
-    <Folder Include="Models\Statement_Keywords\Jump_Statement\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\0x002\0x002.csproj">
