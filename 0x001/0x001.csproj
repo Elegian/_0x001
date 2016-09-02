@@ -24,7 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <IntermediateOutputPath>C:\Users\mrrey\AppData\Local\Temp\vs2C26.tmp\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\nkrit\AppData\Local\Temp\vsB71B.tmp\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <IntermediateOutputPath>C:\Users\mrrey\AppData\Local\Temp\vs2C26.tmp\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\nkrit\AppData\Local\Temp\vsB71B.tmp\Release\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
@@ -61,7 +61,13 @@
     <Compile Include="Dev\sanderele1\ShaderProgram.cs" />
     <Compile Include="Dev\sanderele1\Texture.cs" />
     <Compile Include="Dev\sanderele1\WindowParentControl.cs" />
-    <Compile Include="Models\Class1.cs" />
+    <Compile Include="Models\Method_Handling\Method.cs" />
+    <Compile Include="Models\Statement_Keywords\Argument_Statement\If_Argument.cs" />
+    <Compile Include="Models\Statement_Keywords\Argument_Statement\OperatorType.cs" />
+    <Compile Include="Models\Statement_Keywords\Selection_Statement\If_Statement\Else_Clause.cs" />
+    <Compile Include="Models\Statement_Keywords\Selection_Statement\If_Statement\If_Clause.cs" />
+    <Compile Include="Models\Statement_Keywords\Selection_Statement\Switch_Statement\Case_Clause.cs" />
+    <Compile Include="Models\Statement_Keywords\Selection_Statement\Switch_Statement\Switch_Clause.cs" />
     <Compile Include="ObjParser\Face.cs" />
     <Compile Include="ObjParser\Obj.cs" />
     <Compile Include="ObjParser\Vertex.cs" />
@@ -77,6 +83,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dev\Elegian\" />
+    <Folder Include="Models\Code_Generator\" />
+    <Folder Include="Models\Logic_Check\" />
+    <Folder Include="Models\Statement_Keywords\Exception_Handling\" />
+    <Folder Include="Models\Statement_Keywords\Iteration_Statement\" />
+    <Folder Include="Models\Statement_Keywords\Jump_Statement\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\0x002\0x002.csproj">
