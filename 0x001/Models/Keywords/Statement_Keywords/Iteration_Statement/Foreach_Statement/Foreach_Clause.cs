@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _0x001.Models.Keywords.Statement_Keywords.Iteration_Statement.Foreach_Statement
 {
-    class Foreach_Clause
+    class Foreach_Clause : Base
     {
+        public dynamic Element;
+        public dynamic Listing;
     }
 }

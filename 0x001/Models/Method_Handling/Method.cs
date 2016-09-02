@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace _0x001.Models.Method_Handling
 {
-    struct Method
+    class Method : Base
     {
         public Guid ID;
         public string Name;
