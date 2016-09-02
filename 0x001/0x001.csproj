@@ -62,6 +62,7 @@
     <Compile Include="Dev\sanderele1\Texture.cs" />
     <Compile Include="Dev\sanderele1\WindowParentControl.cs" />
     <Compile Include="Models\Base.cs" />
+    <Compile Include="Models\Keywords\Statement_Keywords\Argument_Statement\For_Argument.cs" />
     <Compile Include="Models\Keywords\Statement_Keywords\Iteration_Statement\Foreach_Statement\Foreach_Clause.cs" />
     <Compile Include="Models\Keywords\Statement_Keywords\Iteration_Statement\For_Statement\For_Clause.cs" />
     <Compile Include="Models\Keywords\Statement_Keywords\Iteration_Statement\While_Statement\While_Clause.cs" />
