@@ -77,10 +77,6 @@
     <Compile Include="Models\Keywords\Statement_Keywords\Selection_Statement\If_Statement\If_Clause.cs" />
     <Compile Include="Models\Keywords\Statement_Keywords\Selection_Statement\Switch_Statement\Case_Clause.cs" />
     <Compile Include="Models\Keywords\Statement_Keywords\Selection_Statement\Switch_Statement\Switch_Clause.cs" />
-    <Compile Include="ObjParser\Face.cs" />
-    <Compile Include="ObjParser\Obj.cs" />
-    <Compile Include="ObjParser\Vertex.cs" />
-    <Compile Include="ObjParser\VNormal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Windows\OpenGLExampleBaseWindow.cs" />
