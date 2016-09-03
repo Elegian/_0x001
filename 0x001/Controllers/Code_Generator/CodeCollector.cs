@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0x001.Controllers.Code_Container
+namespace _0x001.Controllers.Code_Generator
 {
-    public class Codemap
+    class CodeCollector
     {
-        private List<Models.Base> actualCode;
-        
-         
     }
 }

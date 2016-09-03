@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0x001.Models.Keywords.Statement_Keywords.Iteration_Statement.For_Statement
+namespace _0x001.Controllers.Code_Generator
 {
-    class For_Clause
+    class Generator
     {
-
     }
 }

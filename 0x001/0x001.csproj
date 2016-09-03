@@ -52,7 +52,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\Code_Container\Codemap.cs" />
+    <Compile Include="Controllers\Code_Generator\CodeCollector.cs" />
+    <Compile Include="Controllers\Code_Generator\CodemapCollector.cs" />
+    <Compile Include="Controllers\Code_Generator\Compiler.cs" />
+    <Compile Include="Controllers\Code_Generator\Generator.cs" />
     <Compile Include="Dev\sanderele1\Error.cs" />
     <Compile Include="Dev\sanderele1\Mesh.cs" />
     <Compile Include="Dev\sanderele1\OpenGLControl.cs" />
@@ -62,6 +65,8 @@
     <Compile Include="Dev\sanderele1\Texture.cs" />
     <Compile Include="Dev\sanderele1\WindowParentControl.cs" />
     <Compile Include="Models\Base.cs" />
+    <Compile Include="Models\Binding\Combiner.cs" />
+    <Compile Include="Models\Code_Container\Codemap.cs" />
     <Compile Include="Models\Keywords\Statement_Keywords\Argument_Statement\For_Argument.cs" />
     <Compile Include="Models\Keywords\Statement_Keywords\Iteration_Statement\Foreach_Statement\Foreach_Clause.cs" />
     <Compile Include="Models\Keywords\Statement_Keywords\Iteration_Statement\For_Statement\For_Clause.cs" />
@@ -87,7 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dev\Elegian\" />
-    <Folder Include="Models\Code_Generator\" />
     <Folder Include="Models\Keywords\Statement_Keywords\Exception_Handling\" />
     <Folder Include="Models\Keywords\Statement_Keywords\Jump_Statement\" />
     <Folder Include="Models\Logic_Check\" />
